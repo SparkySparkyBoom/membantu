@@ -1,0 +1,80 @@
+*{margin:0;padding: 0;font-family: sans-serif;}
+
+nav{background-color: rgb(64, 219, 224);border-bottom: 2px solid black;margin: 0 auto;width: 100%;position: fixed;box-sizing: border-box;}
+.wrapper{width: 900px;margin: 0 auto;background: rgb(96, 204, 212);}    
+.wrapper>ul>li{display: inline-block;margin-top: 37px;width:130px;text-align: right;box-sizing: border-box;float:left;}
+.wrapper>ul>li:last-child{margin-left: 55px;}
+li{height:30px;width: 100px;text-align: center;list-style: none;}
+
+li ul{display: none;background-color: white;width:250px;margin-top: 10px;}
+ul li:hover ul{display: block;}
+li ul li{width: 240px;padding: 0}
+a{text-decoration: none;color: black;}
+a:hover{color:blue;}
+h1{float: left;line-height:80px;width:25%;margin-right: 50px;text-align: left;}
+
+.bodi{width: 900px;margin: 0 auto;}
+#isi{padding-top: 200px;width:100%;margin:0 auto 30px;padding-bottom:25px; line-height: 25px;height:auto;
+    background-image:     
+    linear-gradient(
+      rgba(162, 0, 255, 0.45), 
+      rgba(255, 230, 0, 0.45)
+    ),url('664xauto-berjabat-tangan-bisa-mengungkap-kepribadian-1602107.jpg');
+    background-size: cover;background-repeat: no-repeat;  
+    background-attachment: fixed;
+}
+img{
+    width:150px;height:100px;margin-bottom:30px;display: block;margin-left: auto;margin-right: auto;
+}
+#proses{width:700px;height:600px;}
+#bantucicil{margin-bottom: 50px;text-align: center;font-size: 80px;font-family: sans-serif;}
+#tombo{margin-top:20px;  text-align: center;}
+#tombolcicil{padding:10px;font-size: 20px;background-color: purple;color: white;}
+.tombol{width:100%;text-align: center;clear: both;}
+
+.testimoni{margin-top: 20px;width: 100%;text-align: left;margin-bottom: 10px;}
+.testimoni .testimoni1,.testimoni .testimoni2{float: left;width: 50%;}
+.testimoni .testimoni1{padding-right: 20px;box-sizing: border-box;border-right:1px solid rgb(209, 191, 191,0.9);}
+.testimoni .testimoni2{padding-left: 30px;box-sizing: border-box;}
+.clear:after{
+  clear: both;display: block;content: "";
+}
+.dicicil{margin-top: 20px;text-align: left;margin-bottom: 10px;}
+.motor{float:left;width: 18%; height:120px;border: 1px solid grey;box shadow:0px 0px 50px 15px grey;background-image: url('bmw.jpg');background-size: contain;background-repeat: no-repeat;background-position: center;margin-left:15px;}
+#pelayanan{width:900px;text-align: left;color: white;
+  margin:0 auto;line-height: 50px;height:auto;
+  background-image:     
+  linear-gradient(
+    rgba(162, 0, 255, 0.45), 
+    rgba(255, 230, 0, 0.45)
+  ),url('664xauto-berjabat-tangan-bisa-mengungkap-kepribadian-1602107.jpg');
+  background-size: cover;background-repeat: no-repeat;  
+  background-attachment: fixed;}
+#layanan{margin-top:100px; width: 823px;height: 400px;}
+#jelaslayanan{width:700px;margin:10px auto; text-align: justify;}
+.syaratfooter{padding-top:15px;width:950px;margin:0 auto;padding-bottom: 25px;}
+.penjelasan{float: left;width:75%;}
+.hubung{float:left;width:15%;}
+
+/*kontak*/
+.komen{width:800px;margin: 0 auto;}
+.komen .komen-left,.komen .komen-right{float: left;width: 50%;box-sizing: border-box;}
+.komen-left input:not([type="submit"]) { border: 1px solid grey;margin-bottom: 5px;width:90%;padding: 7px;font-size: 18px;}
+.komen-left input[type="submit"]{float:right;background-color: rgb(37, 94, 201);color: white;margin-right: 25px;padding: 5px 30px;}
+.komen-right{padding: 10px;}
+.alamat{float:left;width:50%;}
+.telpon{float:left;width:50%;}
+
+/*masuk*/
+.masuk{width:800px;margin: 0 auto;}
+.masuk .masuk-left,.masuk .masuk-right{float: left;width: 50%;box-sizing: border-box;}
+.masuk-left input[type="submit"]{background-color: white;color: black;border: 3px solid purple;padding: 5px 30px;margin-top: 30px;margin-left: auto;margin-right: auto;text-align: center;}
+.masuk-right input[type="submit"]{background-color: white;color: black;border: 3px solid purple;padding: 5px 30px;margin-top: 30px;}
+.masuk-left{border-right: 2px solid grey; }
+.masuk-right{padding-top: 30px;padding-left: 20px;line-height: 30px;}
+.masuk-right:not(label) {text-align: center;}
+.masuk-left input:not([type="submit"]){margin-top: 5px;background-color: rgb(155, 72, 155);color: white;padding: 5px 10px;}
+.bbenul,.bbenil{float:left;width: 50%;}
+.bbenal,.bbenol{float:left;width: 50%;margin-top: 20px;margin-bottom: 20px;}
+
+
